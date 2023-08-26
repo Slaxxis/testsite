@@ -1,0 +1,45 @@
+/* Common styles for both test pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-top: 50px;
+}
+
+p {
+    color: #666;
+    margin: 20px;
+}
+
+/* Unique styles for each test page */
+/* Styles for Test Page 1 */
+body.page1 {
+    background-color: #f7e6ff;
+}
+
+h1.page1 {
+    color: #800080;
+}
+
+p.page1 {
+    color: #990099;
+}
+
+/* Styles for Test Page 2 */
+body.page2 {
+    background-color: #e6fffb;
+}
+
+h1.page2 {
+    color: #008080;
+}
+
+p.page2 {
+    color: #009999;
+}
